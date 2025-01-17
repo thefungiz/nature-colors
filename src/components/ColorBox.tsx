@@ -21,9 +21,8 @@ const ColorBox: React.FC<SimpleRow> = ({ name, hex, reference }) => {
         textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)"
       }}
     >
-      <div>{name}</div>
+      <div>{`${name} (${reference})`}</div>
       <div>{`#${hex}`}</div>
-      <div>{`(${reference})`}</div>
     </div>
   );
 };
