@@ -37,7 +37,7 @@ const App: React.FC = () => {
         />
         Sort by Hex
       </label>
-      <SearchBox query={query} setQuery={setQuery} />
+      <SearchBox query={query} setQuery={(value) => setQuery(value.toString().toLowerCase())} />
       <RadioBox
         options={Options}
         selectedOption={selectedOption}
