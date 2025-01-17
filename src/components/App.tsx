@@ -44,6 +44,12 @@ const App: React.FC = () => {
     setData(sortByToFunc[sortBy](colors));
   }, [query, selectedOption, sortBy]);
 
+  let markup = ''
+  markup += '<div class="color-box-container">\n'
+  data.forEach(x => markup += `<div style="background-color: #${x.hex}" class="color-box"><div>${x.name}</div><div>#${x.hex}</div></div>\n`)
+  markup += '</div>\n'
+  console.log(markup)
+
   return (
     <div>
       <h1>Nature Colors <button onClick={() => alert(aboutThis)}>More about this project</button></h1>
