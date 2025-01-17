@@ -1,6 +1,6 @@
 # mycomatics-colors
 
-![Demo](https://naturecolors.netlify.app/)
+[Demo](https://naturecolors.netlify.app/)
 
 ### Getting started
 
