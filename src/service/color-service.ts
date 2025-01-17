@@ -5,26 +5,26 @@ import { AggregateRow, Options, SimpleRow } from '../types';
 
 
 const getRColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
-    const totalColors = simpleTransform(rColors);
+    const totalColors = simpleTransform(rColors, 'R');
     return !!predicate ? totalColors.filter(predicate) : totalColors;
 }
 
 const getMColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
-    const totalColors = simpleTransform(mColors);
+    const totalColors = simpleTransform(mColors, 'M');
     return !!predicate ? totalColors.filter(predicate) : totalColors;
 }
 
 const getCentroidColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
-    const totalColors = centroidColors;
+    const totalColors = (centroidColors as SimpleRow[]).map(x => ({...x, reference: 'C'}));
     return !!predicate ? totalColors.filter(predicate) : totalColors;
 }
 
 const getAllColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
-    const totalColors = [...simpleTransform(rColors), ...simpleTransform(mColors), ...centroidColors]
+    const totalColors = [...simpleTransform(rColors, 'R'), ...simpleTransform(mColors, 'M'), ...(centroidColors as SimpleRow[]).map(x => ({...x, reference: 'C'}))]
     return !!predicate ? totalColors.filter(predicate) : totalColors;
 }
 
-const simpleTransform = (rows: AggregateRow[]): SimpleRow[] => {
+const simpleTransform = (rows: AggregateRow[], reference: string): SimpleRow[] => {
     let collection: SimpleRow[] = [];
     rows
         .forEach(row => {
@@ -32,7 +32,8 @@ const simpleTransform = (rows: AggregateRow[]): SimpleRow[] => {
                 collection.push({
                     name: row.colorName,
                     hex: x.hex,
-                    centroidNumber: x.centroidNumber
+                    centroidNumber: x.centroidNumber,
+                    reference
                 })
             })
         })
