@@ -1,0 +1,1337 @@
+[
+    {
+        "name": "Vivid Pink",
+        "centroidNumber": "1",
+        "hex": "FFB5BA"
+    },
+    {
+        "name": "Strong Pink",
+        "centroidNumber": "2",
+        "hex": "EA9399"
+    },
+    {
+        "name": "Deep Pink",
+        "centroidNumber": "3",
+        "hex": "E4717A"
+    },
+    {
+        "name": "Light Pink",
+        "centroidNumber": "4",
+        "hex": "F9CCCA"
+    },
+    {
+        "name": "Moderate Pink",
+        "centroidNumber": "5",
+        "hex": "DEA5A4"
+    },
+    {
+        "name": "Dark Pink",
+        "centroidNumber": "6",
+        "hex": "C08081"
+    },
+    {
+        "name": "Pale Pink",
+        "centroidNumber": "7",
+        "hex": "EAD8D7"
+    },
+    {
+        "name": "Grayish Pink",
+        "centroidNumber": "8",
+        "hex": "C4AEAD"
+    },
+    {
+        "name": "Pinkish White",
+        "centroidNumber": "9",
+        "hex": "EAE3E1"
+    },
+    {
+        "name": "Pinkish Gray",
+        "centroidNumber": "10",
+        "hex": "C1B6B3"
+    },
+    {
+        "name": "Vivid Red",
+        "centroidNumber": "11",
+        "hex": "BE0032"
+    },
+    {
+        "name": "Strong Red",
+        "centroidNumber": "12",
+        "hex": "BC3F4A"
+    },
+    {
+        "name": "Deep Red",
+        "centroidNumber": "13",
+        "hex": "841B2D"
+    },
+    {
+        "name": "Very Deep Red",
+        "centroidNumber": "14",
+        "hex": "5C0923"
+    },
+    {
+        "name": "Moderate Red",
+        "centroidNumber": "15",
+        "hex": "AB4E52"
+    },
+    {
+        "name": "Dark Red",
+        "centroidNumber": "16",
+        "hex": "722F37"
+    },
+    {
+        "name": "Very Dark Red",
+        "centroidNumber": "17",
+        "hex": "3F1728"
+    },
+    {
+        "name": "Light Grayish Red",
+        "centroidNumber": "18",
+        "hex": "AD8884"
+    },
+    {
+        "name": "Grayish Red",
+        "centroidNumber": "19",
+        "hex": "905D5D"
+    },
+    {
+        "name": "Dark Grayish Red",
+        "centroidNumber": "20",
+        "hex": "543D3F"
+    },
+    {
+        "name": "Blackish Red",
+        "centroidNumber": "21",
+        "hex": "2E1D21"
+    },
+    {
+        "name": "Reddish Gray",
+        "centroidNumber": "22",
+        "hex": "8F817F"
+    },
+    {
+        "name": "Dark Reddish Gray",
+        "centroidNumber": "23",
+        "hex": "5C504F"
+    },
+    {
+        "name": "Reddish Black",
+        "centroidNumber": "24",
+        "hex": "282022"
+    },
+    {
+        "name": "Vivid Yellowish Pink",
+        "centroidNumber": "25",
+        "hex": "FFB7A5"
+    },
+    {
+        "name": "Strong Yellowish Pink",
+        "centroidNumber": "26",
+        "hex": "F88379"
+    },
+    {
+        "name": "Deep Yellowish Pink",
+        "centroidNumber": "27",
+        "hex": "E66761"
+    },
+    {
+        "name": "Light Yellowish Pink",
+        "centroidNumber": "28",
+        "hex": "F4C2C2"
+    },
+    {
+        "name": "Moderate Yellowish Pink",
+        "centroidNumber": "29",
+        "hex": "D9A6A9"
+    },
+    {
+        "name": "Dark Yellowish Pink",
+        "centroidNumber": "30",
+        "hex": "C48379"
+    },
+    {
+        "name": "Pale Yellowish Pink",
+        "centroidNumber": "31",
+        "hex": "ECD5C5"
+    },
+    {
+        "name": "Grayish Yellowish Pink",
+        "centroidNumber": "32",
+        "hex": "C7ADA3"
+    },
+    {
+        "name": "Brownish Pink",
+        "centroidNumber": "33",
+        "hex": "C2AC99"
+    },
+    {
+        "name": "Vivid Reddish Orange",
+        "centroidNumber": "34",
+        "hex": "E25822"
+    },
+    {
+        "name": "Strong Reddish Orange",
+        "centroidNumber": "35",
+        "hex": "D9603B"
+    },
+    {
+        "name": "Deep Reddish Orange",
+        "centroidNumber": "36",
+        "hex": "AA381E"
+    },
+    {
+        "name": "Moderate Reddish Orange",
+        "centroidNumber": "37",
+        "hex": "CB6D51"
+    },
+    {
+        "name": "Dark Reddish Orange",
+        "centroidNumber": "38",
+        "hex": "9E4732"
+    },
+    {
+        "name": "Grayish Reddish Orange",
+        "centroidNumber": "39",
+        "hex": "B4745E"
+    },
+    {
+        "name": "Strong Reddish Brown",
+        "centroidNumber": "40",
+        "hex": "882D17"
+    },
+    {
+        "name": "Deep Reddish Brown",
+        "centroidNumber": "41",
+        "hex": "56070C"
+    },
+    {
+        "name": "Light Reddish Brown",
+        "centroidNumber": "42",
+        "hex": "A87C6D"
+    },
+    {
+        "name": "Moderate Reddish Brown",
+        "centroidNumber": "43",
+        "hex": "79443B"
+    },
+    {
+        "name": "Dark Reddish Brown",
+        "centroidNumber": "44",
+        "hex": "3E1D1E"
+    },
+    {
+        "name": "Light Grayish Reddish Brown",
+        "centroidNumber": "45",
+        "hex": "977F73"
+    },
+    {
+        "name": "Grayish Reddish Brown",
+        "centroidNumber": "46",
+        "hex": "674C47"
+    },
+    {
+        "name": "Dark Grayish Reddish Brown",
+        "centroidNumber": "47",
+        "hex": "43302E"
+    },
+    {
+        "name": "Vivid Orange",
+        "centroidNumber": "48",
+        "hex": "F38400"
+    },
+    {
+        "name": "Brilliant Orange",
+        "centroidNumber": "49",
+        "hex": "FD943F"
+    },
+    {
+        "name": "Strong Orange",
+        "centroidNumber": "50",
+        "hex": "ED872D"
+    },
+    {
+        "name": "Deep Orange",
+        "centroidNumber": "51",
+        "hex": "BE6516"
+    },
+    {
+        "name": "Light Orange",
+        "centroidNumber": "52",
+        "hex": "FAB57F"
+    },
+    {
+        "name": "Moderate Orange",
+        "centroidNumber": "53",
+        "hex": "D99058"
+    },
+    {
+        "name": "Brownish Orange",
+        "centroidNumber": "54",
+        "hex": "AE6938"
+    },
+    {
+        "name": "Strong Brown",
+        "centroidNumber": "55",
+        "hex": "80461B"
+    },
+    {
+        "name": "Deep Brown",
+        "centroidNumber": "56",
+        "hex": "593319"
+    },
+    {
+        "name": "Light Brown",
+        "centroidNumber": "57",
+        "hex": "A67B5B"
+    },
+    {
+        "name": "Moderate Brown",
+        "centroidNumber": "58",
+        "hex": "6F4E37"
+    },
+    {
+        "name": "Dark Brown",
+        "centroidNumber": "59",
+        "hex": "422518"
+    },
+    {
+        "name": "Light Grayish Brown",
+        "centroidNumber": "60",
+        "hex": "958070"
+    },
+    {
+        "name": "Grayish Brown",
+        "centroidNumber": "61",
+        "hex": "635147"
+    },
+    {
+        "name": "Dark Grayish Brown",
+        "centroidNumber": "62",
+        "hex": "3E322C"
+    },
+    {
+        "name": "Light Brownish Gray",
+        "centroidNumber": "63",
+        "hex": "8E8279"
+    },
+    {
+        "name": "Brownish Gray",
+        "centroidNumber": "64",
+        "hex": "5B504F"
+    },
+    {
+        "name": "Brownish Black",
+        "centroidNumber": "65",
+        "hex": "28201C"
+    },
+    {
+        "name": "Vivid Orange Yellow",
+        "centroidNumber": "66",
+        "hex": "F6A600"
+    },
+    {
+        "name": "Brilliant Orange Yellow",
+        "centroidNumber": "67",
+        "hex": "FFC14F"
+    },
+    {
+        "name": "Strong Orange Yellow",
+        "centroidNumber": "68",
+        "hex": "EAA221"
+    },
+    {
+        "name": "Deep Orange Yellow",
+        "centroidNumber": "69",
+        "hex": "C98500"
+    },
+    {
+        "name": "Light Orange Yellow",
+        "centroidNumber": "70",
+        "hex": "FBC97F"
+    },
+    {
+        "name": "Moderate Orange Yellow",
+        "centroidNumber": "71",
+        "hex": "E3A857"
+    },
+    {
+        "name": "Dark Orange Yellow",
+        "centroidNumber": "72",
+        "hex": "BE8A3D"
+    },
+    {
+        "name": "Pale Orange Yellow",
+        "centroidNumber": "73",
+        "hex": "FAD6A5"
+    },
+    {
+        "name": "Strong Yellowish Brown",
+        "centroidNumber": "74",
+        "hex": "996515"
+    },
+    {
+        "name": "Deep Yellowish Brown",
+        "centroidNumber": "75",
+        "hex": "654522"
+    },
+    {
+        "name": "Light Yellowish Brown",
+        "centroidNumber": "76",
+        "hex": "C19A6B"
+    },
+    {
+        "name": "Moderate Yellowish Brown",
+        "centroidNumber": "77",
+        "hex": "826644"
+    },
+    {
+        "name": "Dark Yellowish Brown",
+        "centroidNumber": "78",
+        "hex": "4B3621"
+    },
+    {
+        "name": "Light Grayish Yellowish Brown",
+        "centroidNumber": "79",
+        "hex": "AE9B82"
+    },
+    {
+        "name": "Grayish Yellowish Brown",
+        "centroidNumber": "80",
+        "hex": "7E6D5A"
+    },
+    {
+        "name": "Dark Grayish Yellowish Brown",
+        "centroidNumber": "81",
+        "hex": "483C32"
+    },
+    {
+        "name": "Vivid Yellow",
+        "centroidNumber": "82",
+        "hex": "F3C300"
+    },
+    {
+        "name": "Brilliant Yellow",
+        "centroidNumber": "83",
+        "hex": "FADA5E"
+    },
+    {
+        "name": "Strong Yellow",
+        "centroidNumber": "84",
+        "hex": "D4AF37"
+    },
+    {
+        "name": "Deep Yellow",
+        "centroidNumber": "85",
+        "hex": "AF8D13"
+    },
+    {
+        "name": "Light Yellow",
+        "centroidNumber": "86",
+        "hex": "F8DE7E"
+    },
+    {
+        "name": "Moderate Yellow",
+        "centroidNumber": "87",
+        "hex": "C9AE5D"
+    },
+    {
+        "name": "Dark Yellow",
+        "centroidNumber": "88",
+        "hex": "AB9144"
+    },
+    {
+        "name": "Pale Yellow",
+        "centroidNumber": "89",
+        "hex": "F3E5AB"
+    },
+    {
+        "name": "Grayish Yellow",
+        "centroidNumber": "90",
+        "hex": "C2B280"
+    },
+    {
+        "name": "Dark Grayish Yellow",
+        "centroidNumber": "91",
+        "hex": "A18F60"
+    },
+    {
+        "name": "Yellowish White",
+        "centroidNumber": "92",
+        "hex": "F0EAD6"
+    },
+    {
+        "name": "Yellowish Gray",
+        "centroidNumber": "93",
+        "hex": "BFB8A5"
+    },
+    {
+        "name": "Light Olive Brown",
+        "centroidNumber": "94",
+        "hex": "967117"
+    },
+    {
+        "name": "Moderate Olive Brown",
+        "centroidNumber": "95",
+        "hex": "6C541E"
+    },
+    {
+        "name": "Dark Olive Brown",
+        "centroidNumber": "96",
+        "hex": "3B3121"
+    },
+    {
+        "name": "Vivid Greenish Yellow",
+        "centroidNumber": "97",
+        "hex": "DCD300"
+    },
+    {
+        "name": "Brilliant Greenish Yellow",
+        "centroidNumber": "98",
+        "hex": "E9E450"
+    },
+    {
+        "name": "Strong Greenish Yellow",
+        "centroidNumber": "99",
+        "hex": "BEB72E"
+    },
+    {
+        "name": "Deep Greenish Yellow",
+        "centroidNumber": "100",
+        "hex": "9B9400"
+    },
+    {
+        "name": "Light Greenish Yellow",
+        "centroidNumber": "101",
+        "hex": "EAE679"
+    },
+    {
+        "name": "Moderate Greenish Yellow",
+        "centroidNumber": "102",
+        "hex": "B9B459"
+    },
+    {
+        "name": "Dark Greenish Yellow",
+        "centroidNumber": "103",
+        "hex": "98943E"
+    },
+    {
+        "name": "Pale Greenish Yellow",
+        "centroidNumber": "104",
+        "hex": "EBE8A4"
+    },
+    {
+        "name": "Grayish Greenish Yellow",
+        "centroidNumber": "105",
+        "hex": "B9B57D"
+    },
+    {
+        "name": "Light Olive",
+        "centroidNumber": "106",
+        "hex": "867E36"
+    },
+    {
+        "name": "Moderate Olive",
+        "centroidNumber": "107",
+        "hex": "665D1E"
+    },
+    {
+        "name": "Dark Olive",
+        "centroidNumber": "108",
+        "hex": "403D21"
+    },
+    {
+        "name": "Light Grayish Olive",
+        "centroidNumber": "109",
+        "hex": "8C8767"
+    },
+    {
+        "name": "Grayish Olive",
+        "centroidNumber": "110",
+        "hex": "5B5842"
+    },
+    {
+        "name": "Dark Grayish Olive",
+        "centroidNumber": "111",
+        "hex": "363527"
+    },
+    {
+        "name": "Light Olive Gray",
+        "centroidNumber": "112",
+        "hex": "8A8776"
+    },
+    {
+        "name": "Olive Gray",
+        "centroidNumber": "113",
+        "hex": "57554C"
+    },
+    {
+        "name": "Olive Black",
+        "centroidNumber": "114",
+        "hex": "25241D"
+    },
+    {
+        "name": "Vivid Yellow Green",
+        "centroidNumber": "115",
+        "hex": "8DB600"
+    },
+    {
+        "name": "Brilliant Yellow Green",
+        "centroidNumber": "116",
+        "hex": "BDDA57"
+    },
+    {
+        "name": "Strong Yellow Green",
+        "centroidNumber": "117",
+        "hex": "7E9F2E"
+    },
+    {
+        "name": "Deep Yellow Green",
+        "centroidNumber": "118",
+        "hex": "467129"
+    },
+    {
+        "name": "Light Yellow Green",
+        "centroidNumber": "119",
+        "hex": "C9DC89"
+    },
+    {
+        "name": "Moderate Yellow Green",
+        "centroidNumber": "120",
+        "hex": "8A9A5B"
+    },
+    {
+        "name": "Pale Yellow Green",
+        "centroidNumber": "121",
+        "hex": "DADFB7"
+    },
+    {
+        "name": "Grayish Yellow Green",
+        "centroidNumber": "122",
+        "hex": "8F9779"
+    },
+    {
+        "name": "Strong Olive Green",
+        "centroidNumber": "123",
+        "hex": "404F00"
+    },
+    {
+        "name": "Deep Olive Green",
+        "centroidNumber": "124",
+        "hex": "232F00"
+    },
+    {
+        "name": "Moderate Olive Green",
+        "centroidNumber": "125",
+        "hex": "4A5D23"
+    },
+    {
+        "name": "Dark Olive Green",
+        "centroidNumber": "126",
+        "hex": "2B3D26"
+    },
+    {
+        "name": "Grayish Olive Green",
+        "centroidNumber": "127",
+        "hex": "515744"
+    },
+    {
+        "name": "Dark Grayish Olive Green",
+        "centroidNumber": "128",
+        "hex": "31362B"
+    },
+    {
+        "name": "Vivid Yellowish Green",
+        "centroidNumber": "129",
+        "hex": "27A64C"
+    },
+    {
+        "name": "Brilliant Yellowish Green",
+        "centroidNumber": "130",
+        "hex": "83D37D"
+    },
+    {
+        "name": "Strong Yellowish Green",
+        "centroidNumber": "131",
+        "hex": "44944A"
+    },
+    {
+        "name": "Deep Yellowish Green",
+        "centroidNumber": "132",
+        "hex": "00622D"
+    },
+    {
+        "name": "Very Deep Yellowish Green",
+        "centroidNumber": "133",
+        "hex": "003118"
+    },
+    {
+        "name": "Very Light Yellowish Green",
+        "centroidNumber": "134",
+        "hex": "B6E5AF"
+    },
+    {
+        "name": "Light Yellowish Green",
+        "centroidNumber": "135",
+        "hex": "93C592"
+    },
+    {
+        "name": "Moderate Yellowish Green",
+        "centroidNumber": "136",
+        "hex": "679267"
+    },
+    {
+        "name": "Dark Yellowish Green",
+        "centroidNumber": "137",
+        "hex": "355E3B"
+    },
+    {
+        "name": "Very Dark Yellowish Green",
+        "centroidNumber": "138",
+        "hex": "173620"
+    },
+    {
+        "name": "Vivid Green",
+        "centroidNumber": "139",
+        "hex": "008856"
+    },
+    {
+        "name": "Brilliant Green",
+        "centroidNumber": "140",
+        "hex": "3EB489"
+    },
+    {
+        "name": "Strong Green",
+        "centroidNumber": "141",
+        "hex": "007959"
+    },
+    {
+        "name": "Deep Green",
+        "centroidNumber": "142",
+        "hex": "00543D"
+    },
+    {
+        "name": "Very Light Green",
+        "centroidNumber": "143",
+        "hex": "8ED1B2"
+    },
+    {
+        "name": "Light Green",
+        "centroidNumber": "144",
+        "hex": "6AAB8E"
+    },
+    {
+        "name": "Moderate Green",
+        "centroidNumber": "145",
+        "hex": "3B7861"
+    },
+    {
+        "name": "Dark Green",
+        "centroidNumber": "146",
+        "hex": "1B4D3E"
+    },
+    {
+        "name": "Very Dark Green",
+        "centroidNumber": "147",
+        "hex": "1C352D"
+    },
+    {
+        "name": "Very Pale Green",
+        "centroidNumber": "148",
+        "hex": "C7E6D7"
+    },
+    {
+        "name": "Pale Green",
+        "centroidNumber": "149",
+        "hex": "8DA399"
+    },
+    {
+        "name": "Grayish Green",
+        "centroidNumber": "150",
+        "hex": "5E716A"
+    },
+    {
+        "name": "Dark Grayish Green",
+        "centroidNumber": "151",
+        "hex": "3A4B47"
+    },
+    {
+        "name": "Blackish Green",
+        "centroidNumber": "152",
+        "hex": "1A2421"
+    },
+    {
+        "name": "Greenish White",
+        "centroidNumber": "153",
+        "hex": "DFEDE8"
+    },
+    {
+        "name": "Light Greenish Gray",
+        "centroidNumber": "154",
+        "hex": "B2BEB5"
+    },
+    {
+        "name": "Greenish Gray",
+        "centroidNumber": "155",
+        "hex": "7D8984"
+    },
+    {
+        "name": "Dark Greenish Gray",
+        "centroidNumber": "156",
+        "hex": "4E5755"
+    },
+    {
+        "name": "Greenish Black",
+        "centroidNumber": "157",
+        "hex": "1E2321"
+    },
+    {
+        "name": "Vivid Bluish Green",
+        "centroidNumber": "158",
+        "hex": "008882"
+    },
+    {
+        "name": "Brilliant Bluish Green",
+        "centroidNumber": "159",
+        "hex": "00A693"
+    },
+    {
+        "name": "Strong Bluish Green",
+        "centroidNumber": "160",
+        "hex": "007A74"
+    },
+    {
+        "name": "Deep Bluish Green",
+        "centroidNumber": "161",
+        "hex": "00443F"
+    },
+    {
+        "name": "Very Light Bluish Green",
+        "centroidNumber": "162",
+        "hex": "96DED1"
+    },
+    {
+        "name": "Light Bluish Green",
+        "centroidNumber": "163",
+        "hex": "66ADA4"
+    },
+    {
+        "name": "Moderate Bluish Green",
+        "centroidNumber": "164",
+        "hex": "317873"
+    },
+    {
+        "name": "Dark Bluish Green",
+        "centroidNumber": "165",
+        "hex": "004B49"
+    },
+    {
+        "name": "Very Dark Bluish Green",
+        "centroidNumber": "166",
+        "hex": "002A29"
+    },
+    {
+        "name": "Vivid Greenish Blue",
+        "centroidNumber": "167",
+        "hex": "0085A1"
+    },
+    {
+        "name": "Brilliant Greenish Blue",
+        "centroidNumber": "168",
+        "hex": "239EBA"
+    },
+    {
+        "name": "Strong Greenish Blue",
+        "centroidNumber": "169",
+        "hex": "007791"
+    },
+    {
+        "name": "Deep Greenish Blue",
+        "centroidNumber": "170",
+        "hex": "2E8495"
+    },
+    {
+        "name": "Very Light Greenish Blue",
+        "centroidNumber": "171",
+        "hex": "9CD1DC"
+    },
+    {
+        "name": "Light Greenish Blue",
+        "centroidNumber": "172",
+        "hex": "66AABC"
+    },
+    {
+        "name": "Moderate Greenish Blue",
+        "centroidNumber": "173",
+        "hex": "367588"
+    },
+    {
+        "name": "Dark Greenish Blue",
+        "centroidNumber": "174",
+        "hex": "004958"
+    },
+    {
+        "name": "Very Dark Greenish Blue",
+        "centroidNumber": "175",
+        "hex": "002E3B"
+    },
+    {
+        "name": "Vivid Blue",
+        "centroidNumber": "176",
+        "hex": "00A1C2"
+    },
+    {
+        "name": "Brilliant Blue",
+        "centroidNumber": "177",
+        "hex": "4997D0"
+    },
+    {
+        "name": "Strong Blue",
+        "centroidNumber": "178",
+        "hex": "0067A5"
+    },
+    {
+        "name": "Deep Blue",
+        "centroidNumber": "179",
+        "hex": "00416A"
+    },
+    {
+        "name": "Very Light Blue",
+        "centroidNumber": "180",
+        "hex": "A1CAF1"
+    },
+    {
+        "name": "Light Blue",
+        "centroidNumber": "181",
+        "hex": "70A3CC"
+    },
+    {
+        "name": "Moderate Blue",
+        "centroidNumber": "182",
+        "hex": "436B95"
+    },
+    {
+        "name": "Dark Blue",
+        "centroidNumber": "183",
+        "hex": "00304E"
+    },
+    {
+        "name": "Very Pale Blue",
+        "centroidNumber": "184",
+        "hex": "BCD4E6"
+    },
+    {
+        "name": "Pale Blue",
+        "centroidNumber": "185",
+        "hex": "91A3B0"
+    },
+    {
+        "name": "Grayish Blue",
+        "centroidNumber": "186",
+        "hex": "536878"
+    },
+    {
+        "name": "Dark Grayish Blue",
+        "centroidNumber": "187",
+        "hex": "36454F"
+    },
+    {
+        "name": "Blackish Blue",
+        "centroidNumber": "188",
+        "hex": "202830"
+    },
+    {
+        "name": "Bluish White",
+        "centroidNumber": "189",
+        "hex": "E9E9ED"
+    },
+    {
+        "name": "Light Bluish Gray",
+        "centroidNumber": "190",
+        "hex": "B4BCC0"
+    },
+    {
+        "name": "Bluish Gray",
+        "centroidNumber": "191",
+        "hex": "81878B"
+    },
+    {
+        "name": "Dark Bluish Gray",
+        "centroidNumber": "192",
+        "hex": "51585E"
+    },
+    {
+        "name": "Bluish Black",
+        "centroidNumber": "193",
+        "hex": "202428"
+    },
+    {
+        "name": "Vivid Purplish Blue",
+        "centroidNumber": "194",
+        "hex": "30267A"
+    },
+    {
+        "name": "Brilliant Purplish Blue",
+        "centroidNumber": "195",
+        "hex": "6C79B8"
+    },
+    {
+        "name": "Strong Purplish Blue",
+        "centroidNumber": "196",
+        "hex": "545AA7"
+    },
+    {
+        "name": "Deep Purplish Blue",
+        "centroidNumber": "197",
+        "hex": "272458"
+    },
+    {
+        "name": "Very Light Purplish Blue",
+        "centroidNumber": "198",
+        "hex": "B3BCE2"
+    },
+    {
+        "name": "Light Purplish Blue",
+        "centroidNumber": "199",
+        "hex": "8791BF"
+    },
+    {
+        "name": "Moderate Purplish Blue",
+        "centroidNumber": "200",
+        "hex": "4E5180"
+    },
+    {
+        "name": "Dark Purplish Blue",
+        "centroidNumber": "201",
+        "hex": "252440"
+    },
+    {
+        "name": "Very Pale Purplish Blue",
+        "centroidNumber": "202",
+        "hex": "C0C8E1"
+    },
+    {
+        "name": "Pale Purplish Blue",
+        "centroidNumber": "203",
+        "hex": "8C92AC"
+    },
+    {
+        "name": "Grayish Purplish Blue",
+        "centroidNumber": "204",
+        "hex": "4C516D"
+    },
+    {
+        "name": "Vivid Violet",
+        "centroidNumber": "205",
+        "hex": "9065CA"
+    },
+    {
+        "name": "Brilliant Violet",
+        "centroidNumber": "206",
+        "hex": "7E73B8"
+    },
+    {
+        "name": "Strong Violet",
+        "centroidNumber": "207",
+        "hex": "604E97"
+    },
+    {
+        "name": "Deep Violet",
+        "centroidNumber": "208",
+        "hex": "32174D"
+    },
+    {
+        "name": "Very Light Violet",
+        "centroidNumber": "209",
+        "hex": "DCD0FF"
+    },
+    {
+        "name": "Light Violet",
+        "centroidNumber": "210",
+        "hex": "8C82B6"
+    },
+    {
+        "name": "Moderate Violet",
+        "centroidNumber": "211",
+        "hex": "604E81"
+    },
+    {
+        "name": "Dark Violet",
+        "centroidNumber": "212",
+        "hex": "2F2140"
+    },
+    {
+        "name": "Very Pale Violet",
+        "centroidNumber": "213",
+        "hex": "C4C3DD"
+    },
+    {
+        "name": "Pale Violet",
+        "centroidNumber": "214",
+        "hex": "9690AB"
+    },
+    {
+        "name": "Grayish Violet",
+        "centroidNumber": "215",
+        "hex": "554C69"
+    },
+    {
+        "name": "Vivid Purple",
+        "centroidNumber": "216",
+        "hex": "9A4EAE"
+    },
+    {
+        "name": "Brilliant Purple",
+        "centroidNumber": "217",
+        "hex": "D399E6"
+    },
+    {
+        "name": "Strong Purple",
+        "centroidNumber": "218",
+        "hex": "875692"
+    },
+    {
+        "name": "Deep Purple",
+        "centroidNumber": "219",
+        "hex": "602F6B"
+    },
+    {
+        "name": "Very Deep Purple",
+        "centroidNumber": "220",
+        "hex": "401A4C"
+    },
+    {
+        "name": "Very Light Purple",
+        "centroidNumber": "221",
+        "hex": "D5BADB"
+    },
+    {
+        "name": "Light Purple",
+        "centroidNumber": "222",
+        "hex": "B695C0"
+    },
+    {
+        "name": "Moderate Purple",
+        "centroidNumber": "223",
+        "hex": "86608E"
+    },
+    {
+        "name": "Dark Purple",
+        "centroidNumber": "224",
+        "hex": "563C5C"
+    },
+    {
+        "name": "Very Dark Purple",
+        "centroidNumber": "225",
+        "hex": "301934"
+    },
+    {
+        "name": "Very Pale Purple",
+        "centroidNumber": "226",
+        "hex": "D6CADD"
+    },
+    {
+        "name": "Pale Purple",
+        "centroidNumber": "227",
+        "hex": "AA98A9"
+    },
+    {
+        "name": "Grayish Purple",
+        "centroidNumber": "228",
+        "hex": "796878"
+    },
+    {
+        "name": "Dark Grayish Purple",
+        "centroidNumber": "229",
+        "hex": "50404D"
+    },
+    {
+        "name": "Blackish Purple",
+        "centroidNumber": "230",
+        "hex": "291E29"
+    },
+    {
+        "name": "Purplish White",
+        "centroidNumber": "231",
+        "hex": "E8E3E5"
+    },
+    {
+        "name": "Light Purplish Gray",
+        "centroidNumber": "232",
+        "hex": "BFB9BD"
+    },
+    {
+        "name": "Purplish Gray",
+        "centroidNumber": "233",
+        "hex": "8B8589"
+    },
+    {
+        "name": "Dark Purplish Gray",
+        "centroidNumber": "234",
+        "hex": "5D555B"
+    },
+    {
+        "name": "Purplish Black",
+        "centroidNumber": "235",
+        "hex": "242124"
+    },
+    {
+        "name": "Vivid Reddish Purple",
+        "centroidNumber": "236",
+        "hex": "870074"
+    },
+    {
+        "name": "Strong Reddish Purple",
+        "centroidNumber": "237",
+        "hex": "9E4F88"
+    },
+    {
+        "name": "Deep Reddish Purple",
+        "centroidNumber": "238",
+        "hex": "702963"
+    },
+    {
+        "name": "Very Deep Reddish Purple",
+        "centroidNumber": "239",
+        "hex": "54194E"
+    },
+    {
+        "name": "Light Reddish Purple",
+        "centroidNumber": "240",
+        "hex": "B784A7"
+    },
+    {
+        "name": "Moderate Reddish Purple",
+        "centroidNumber": "241",
+        "hex": "915C83"
+    },
+    {
+        "name": "Dark Reddish Purple",
+        "centroidNumber": "242",
+        "hex": "5D3954"
+    },
+    {
+        "name": "Very Dark Reddish Purple",
+        "centroidNumber": "243",
+        "hex": "341731"
+    },
+    {
+        "name": "Pale Reddish Purple",
+        "centroidNumber": "244",
+        "hex": "AA8A9E"
+    },
+    {
+        "name": "Grayish Reddish Purple",
+        "centroidNumber": "245",
+        "hex": "836479"
+    },
+    {
+        "name": "Brilliant Purplish Pink",
+        "centroidNumber": "246",
+        "hex": "FFC8D6"
+    },
+    {
+        "name": "Strong Purplish Pink",
+        "centroidNumber": "247",
+        "hex": "E68FAC"
+    },
+    {
+        "name": "Deep Purplish Pink",
+        "centroidNumber": "248",
+        "hex": "DE6FA1"
+    },
+    {
+        "name": "Light Purplish Pink",
+        "centroidNumber": "249",
+        "hex": "EFBBCC"
+    },
+    {
+        "name": "Moderate Purplish Pink",
+        "centroidNumber": "250",
+        "hex": "D597AE"
+    },
+    {
+        "name": "Dark Purplish Pink",
+        "centroidNumber": "251",
+        "hex": "C17E91"
+    },
+    {
+        "name": "Pale Purplish Pink",
+        "centroidNumber": "252",
+        "hex": "E8CCD7"
+    },
+    {
+        "name": "Grayish Purplish Pink",
+        "centroidNumber": "253",
+        "hex": "C3A6B1"
+    },
+    {
+        "name": "Vivid Purplish Red",
+        "centroidNumber": "254",
+        "hex": "CE4676"
+    },
+    {
+        "name": "Strong Purplish Red",
+        "centroidNumber": "255",
+        "hex": "B3446C"
+    },
+    {
+        "name": "Deep Purplish Red",
+        "centroidNumber": "256",
+        "hex": "78184A"
+    },
+    {
+        "name": "Very Deep Purplish Red",
+        "centroidNumber": "257",
+        "hex": "54133B"
+    },
+    {
+        "name": "Moderate Purplish Red",
+        "centroidNumber": "258",
+        "hex": "A8516E"
+    },
+    {
+        "name": "Dark Purplish Red",
+        "centroidNumber": "259",
+        "hex": "673147"
+    },
+    {
+        "name": "Very Dark Purplish Red",
+        "centroidNumber": "260",
+        "hex": "38152C"
+    },
+    {
+        "name": "Light Grayish Purplish Red",
+        "centroidNumber": "261",
+        "hex": "AF868E"
+    },
+    {
+        "name": "Grayish Purplish Red",
+        "centroidNumber": "262",
+        "hex": "915F6D"
+    },
+    {
+        "name": "White",
+        "centroidNumber": "263",
+        "hex": "F2F3F4"
+    },
+    {
+        "name": "Light Gray",
+        "centroidNumber": "264",
+        "hex": "B9B8B5"
+    },
+    {
+        "name": "Medium Gray",
+        "centroidNumber": "265",
+        "hex": "848482"
+    },
+    {
+        "name": "Dark Gray",
+        "centroidNumber": "266",
+        "hex": "555555"
+    },
+    {
+        "name": "Black",
+        "centroidNumber": "267",
+        "hex": "222222"
+    }
+]
