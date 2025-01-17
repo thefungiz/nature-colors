@@ -22,7 +22,7 @@ const ColorBox: React.FC<SimpleRow> = ({ name, hex }) => {
       }}
     >
       <div>{name}</div>
-      <div>{`${hex}`}</div>
+      <div>{`#${hex}`}</div>
     </div>
   );
 };
