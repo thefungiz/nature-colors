@@ -5,11 +5,8 @@ import { getColors, sortByHex } from '../service/color-service';
 import { Options, SimpleRow } from '../types';
 import RadioBox from './RadioBox';
 
-const aboutThis = `# Sources
-# REF: https://people.csail.mit.edu/jaffer/Color/Dictionaries (main resource)
-# REF: https://people.csail.mit.edu/jaffer/Color/M.htm (Maerz and Paul, Dictionary of Color, 1st ed.)
-# REF: https://people.csail.mit.edu/jaffer/Color/R.htm (Ridgway, Color Standards and Color Nomenclature)
-# REF: https://people.csail.mit.edu/jaffer/Color/Dictionaries#nbs-iscc (NBS/ISCC Centroids)`
+const aboutThis = `This project is a spin off of jaffer's research into what we know about colors throughout history transposing into the digital space.
+Please read more here - https://people.csail.mit.edu/jaffer/Color/Dictionaries`
 
 const App: React.FC = () => {
   const [query, setQuery] = useState<string>('');
