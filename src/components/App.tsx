@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import SearchBox from './SearchBox';
 import ColorBoxDisplay from './ColorDisplay';
 import { getColors, sortByCentroid, sortByHex } from '../service/color-service';
-import { Options, SimpleRow, SortBy } from '../types';
+import { Options, SearchBy, SimpleRow, SortBy } from '../types';
 import RadioBox from './RadioBox';
 
 const aboutThis = `This project is a spin off of jaffer's research into what we know about colors throughout history transposing into the digital space.
@@ -13,6 +13,7 @@ const App: React.FC = () => {
   const [data, setData] = useState<SimpleRow[]>(sortByHex(getColors(Options.All)));
   const [selectedOption, setSelectedOption] = useState<Options>(Options.All);
   const [sortBy, setSortBy] = useState<SortBy>(SortBy.Name);
+  const [searchBy, setSearchBy] = useState<SearchBy>(SearchBy.Name);
 
   const handleOptionChange = (value: Options) => {
     setSelectedOption(value);
@@ -22,6 +23,16 @@ const App: React.FC = () => {
     setSortBy(value);
   };
 
+  const handleSearchByChange = (value: SearchBy) => {
+    setSearchBy(value);
+  };
+
+  const searchByToFunc: Record<SearchBy, (value: SimpleRow, index: number, array: SimpleRow[]) => unknown> = {
+    [SearchBy.Name]: x => x.name.toLowerCase().includes(query),
+    [SearchBy.Hex]: x => x.hex.toLowerCase().includes(query),
+    [SearchBy.Centroid]: x => x.centroidNumber.includes(query),
+  };
+
   const sortByToFunc: Record<SortBy, (rows: SimpleRow[]) => SimpleRow[]> = {
     [SortBy.Name]: (rows) => rows,
     [SortBy.Hex]: (rows) => sortByHex(rows),
@@ -29,7 +40,7 @@ const App: React.FC = () => {
   };
   
   useEffect(() => {
-    const colors = query === '' ? getColors(selectedOption) : getColors(selectedOption, x => x.name.toLowerCase().includes(query) || x.hex.includes(query))
+    const colors = query === '' ? getColors(selectedOption) : getColors(selectedOption, searchByToFunc[searchBy])
     setData(sortByToFunc[sortBy](colors));
   }, [query, selectedOption, sortBy]);
 
@@ -37,6 +48,12 @@ const App: React.FC = () => {
     <div>
       <h1>Nature Colors <button onClick={() => alert(aboutThis)}>More about this project</button></h1>
       <SearchBox query={query} setQuery={(value) => setQuery(value.toString().toLowerCase())} />
+      <RadioBox
+        name="Search By"
+        options={SearchBy}
+        selectedOption={searchBy}
+        onChange={handleSearchByChange}
+      />
       <RadioBox
         name="Sort By"
         options={SortBy}

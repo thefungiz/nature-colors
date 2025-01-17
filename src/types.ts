@@ -29,3 +29,9 @@ export enum SortBy {
     Centroid = "Centroid",
     Name = "Name"
 }
+
+export enum SearchBy {
+    Hex = "Hex",
+    Centroid = "Centroid",
+    Name = "Name"
+}
