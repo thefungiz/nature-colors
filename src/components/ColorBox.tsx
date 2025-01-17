@@ -1,7 +1,7 @@
 import React from "react";
 import { SimpleRow } from "../types";
 
-const ColorBox: React.FC<SimpleRow> = ({ name, hex, reference }) => {
+  const ColorBox: React.FC<SimpleRow> = ({ name, hex, reference, centroidNumber }) => {
   return (
     <div
       style={{
@@ -21,7 +21,7 @@ const ColorBox: React.FC<SimpleRow> = ({ name, hex, reference }) => {
         textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)"
       }}
     >
-      <div>{`${name} (${reference})`}</div>
+      <div>{`${name} (${reference}:${centroidNumber})`}</div>
       <div>{`#${hex}`}</div>
     </div>
   );
