@@ -12,7 +12,7 @@ const SearchBox: React.FC<SearchBoxProps> = ({ query, setQuery }) => {
 
   return (
     <div>
-      <label htmlFor="search">Search:</label>
+      {'> '}
       <input
         id="search"
         type="text"

@@ -23,3 +23,9 @@ export enum Options {
     M = "Maerz and Paul, Dictionary of Color, 1st ed. (M)",
     Centroid = "NBS/ISCC Centroids (C)",
   }
+
+export enum SortBy {
+    Hex = "Hex",
+    Centroid = "Centroid",
+    Name = "Name"
+}

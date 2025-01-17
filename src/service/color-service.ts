@@ -15,12 +15,12 @@ const getMColors = (predicate?: (value: SimpleRow, index: number, array: SimpleR
 }
 
 const getCentroidColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
-    const totalColors = (centroidColors as SimpleRow[]).map(x => ({...x, reference: 'C'}));
+    const totalColors = (centroidColors as SimpleRow[]).map(x => ({ ...x, reference: 'C' }));
     return !!predicate ? totalColors.filter(predicate) : totalColors;
 }
 
 const getAllColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
-    const totalColors = [...simpleTransform(rColors, 'R'), ...simpleTransform(mColors, 'M'), ...(centroidColors as SimpleRow[]).map(x => ({...x, reference: 'C'}))]
+    const totalColors = [...simpleTransform(rColors, 'R'), ...simpleTransform(mColors, 'M'), ...(centroidColors as SimpleRow[]).map(x => ({ ...x, reference: 'C' }))]
     return !!predicate ? totalColors.filter(predicate) : totalColors;
 }
 
@@ -39,6 +39,10 @@ const simpleTransform = (rows: AggregateRow[], reference: string): SimpleRow[] =
         })
     return collection;
 }
+
+export const sortByCentroid = (rows: SimpleRow[]): SimpleRow[] => {
+    return rows.sort((a, b) => (a.centroidNumber as unknown as number) - (b.centroidNumber as unknown as number));
+  }
 
 export const sortByHex = (rows: SimpleRow[]): SimpleRow[] => {
     // Helper function to convert a hex color to an RGB array
@@ -71,12 +75,12 @@ const optionToFunctionMap: Record<Options, (predicate?: (value: SimpleRow, index
     [Options.R]: getRColors.bind(this),
     [Options.M]: getMColors.bind(this),
     [Options.Centroid]: getCentroidColors.bind(this),
-  };
+};
 
-  export const getColors = (option: Options, predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
+export const getColors = (option: Options, predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
     const selectedFunction = optionToFunctionMap[option];
     if (!selectedFunction) {
-      throw new Error(`Invalid option: ${option}`);
+        throw new Error(`Invalid option: ${option}`);
     }
     return selectedFunction(predicate);
-  }
+}
