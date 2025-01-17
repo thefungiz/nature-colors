@@ -2,7 +2,6 @@ import React from "react";
 import { SimpleRow } from "../types";
 
 const ColorBox: React.FC<SimpleRow> = ({ name, hex }) => {
-    console.log([hex])
   return (
     <div
       style={{

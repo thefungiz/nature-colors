@@ -17,8 +17,8 @@ export type SimpleRow = {
 }
 
 export enum Options {
-    // All = "all",
+    All = "All",
     R = "Ridgway, Color Standards and Color Nomenclature",
     M = "Maerz and Paul, Dictionary of Color, 1st ed.",
-    // Centroid = "centroid",
+    Centroid = "NBS/ISCC Centroids",
   }

@@ -10,8 +10,8 @@ Please read more here - https://people.csail.mit.edu/jaffer/Color/Dictionaries`
 
 const App: React.FC = () => {
   const [query, setQuery] = useState<string>('');
-  const [data, setData] = useState<SimpleRow[]>(sortByHex(getColors(Options.R)));
-  const [selectedOption, setSelectedOption] = useState<Options>(Options.R);
+  const [data, setData] = useState<SimpleRow[]>(sortByHex(getColors(Options.All)));
+  const [selectedOption, setSelectedOption] = useState<Options>(Options.All);
   const [isSortChecked, setIsSortChecked] = useState(false);
 
   const handleOptionChange = (value: Options) => {
@@ -19,7 +19,7 @@ const App: React.FC = () => {
   };
   
   useEffect(() => {
-    const colors = query === '' ? getColors(selectedOption) : getColors(selectedOption, x => x.name.includes(query) || x.hex.includes(query))
+    const colors = query === '' ? getColors(selectedOption) : getColors(selectedOption, x => x.name.toLowerCase().includes(query) || x.hex.includes(query))
     setData(isSortChecked ? sortByHex(colors) : colors);
   }, [query, selectedOption, isSortChecked]);
 

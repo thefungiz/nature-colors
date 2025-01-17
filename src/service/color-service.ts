@@ -1,25 +1,30 @@
 import rColors from '../../resources/R.json'
 import mColors from '../../resources/M.json'
-// import centroidColors from '../../resources/centroid.json'
+import centroidColors from '../../resources/centroid.json'
 import { AggregateRow, Options, SimpleRow } from '../types';
 
 
-export const getRColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
+const getRColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
     const totalColors = simpleTransform(rColors);
     return !!predicate ? totalColors.filter(predicate) : totalColors;
 }
 
-export const getMColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
+const getMColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
     const totalColors = simpleTransform(mColors);
     return !!predicate ? totalColors.filter(predicate) : totalColors;
 }
 
-// export const getCentroidColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
-//     const totalColors = simpleTransform(centroidColors);
-//     return !!predicate ? totalColors.filter(predicate) : totalColors;
-// }
+const getCentroidColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
+    const totalColors = centroidColors;
+    return !!predicate ? totalColors.filter(predicate) : totalColors;
+}
 
-export const simpleTransform = (rows: AggregateRow[]): SimpleRow[] => {
+const getAllColors = (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
+    const totalColors = [...simpleTransform(rColors), ...simpleTransform(mColors), ...centroidColors]
+    return !!predicate ? totalColors.filter(predicate) : totalColors;
+}
+
+const simpleTransform = (rows: AggregateRow[]): SimpleRow[] => {
     let collection: SimpleRow[] = [];
     rows
         .forEach(row => {
@@ -60,12 +65,11 @@ export const sortByHex = (rows: SimpleRow[]): SimpleRow[] => {
     return [...rows].sort(rgbComparator);
 }
 
-
 const optionToFunctionMap: Record<Options, (predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown) => SimpleRow[]> = {
-    // [Options.All]: getAllColors.bind(this),
+    [Options.All]: getAllColors.bind(this),
     [Options.R]: getRColors.bind(this),
     [Options.M]: getMColors.bind(this),
-    // [Options.Centroid]: getCentroidColors.bind(this),
+    [Options.Centroid]: getCentroidColors.bind(this),
   };
 
   export const getColors = (option: Options, predicate?: (value: SimpleRow, index: number, array: SimpleRow[]) => unknown): SimpleRow[] => {
