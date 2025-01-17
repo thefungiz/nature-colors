@@ -3,7 +3,7 @@ import SearchBox from './SearchBox';
 import ColorBoxDisplay from './ColorDisplay';
 import { getColors, sortByHex } from '../service/color-service';
 import { Options, SimpleRow } from '../types';
-import RadioBox from './Radiobox';
+import RadioBox from './RadioBox';
 
 const aboutThis = `# Sources
 # REF: https://people.csail.mit.edu/jaffer/Color/Dictionaries (main resource)
