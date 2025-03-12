@@ -6,7 +6,8 @@ import { Options, SearchBy, SimpleRow, SortBy } from '../types';
 import RadioBox from './RadioBox';
 
 const aboutThis = `This project is a spin off of jaffer's research into what we know about colors throughout history transposing into the digital space.
-Please read more here - https://people.csail.mit.edu/jaffer/Color/Dictionaries`
+Please read more here - https://people.csail.mit.edu/jaffer/Color/Dictionaries
+Source Code https://github.com/thefungiz/nature-colors`
 
 const App: React.FC = () => {
   const [query, setQuery] = useState<string>('');
